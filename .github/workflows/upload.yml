@@ -1,10 +1,6 @@
 name: Drive to YouTube Upload
 
-on:
-  schedule:
-    - cron: '0 */12 * * *'  
-  workflow_dispatch:        
-
+on: []
 jobs:
   upload:
     runs-on: ubuntu-latest
